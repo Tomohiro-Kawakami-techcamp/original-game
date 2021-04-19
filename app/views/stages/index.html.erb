@@ -3,6 +3,6 @@
 <div>
 <h3>ステージを選ぶ</h3>
 <% @stages.each do |stage| %>
-  <%= stage.name %>
+  <%= link_to stage.name, "#" %>
 <% end %>
 </div>
